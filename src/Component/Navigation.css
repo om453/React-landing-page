@@ -1,0 +1,39 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: var(--grey);
+}
+
+button {
+    all: unset;
+    background-color: var(--red);
+    padding: 6px 16px;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
