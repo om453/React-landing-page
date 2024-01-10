@@ -1,53 +1,54 @@
-.hero-section{
+.hero-section {
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(100vh-72px);
 }
 
-.hero-section-content{
+.hero-section-content {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.hero-section h1{
+.hero-section h1 {
     max-width: 595px;
     font-size: 108px;
     line-height: 102px;
 }
 
-.hero-section p{
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-color: var(--grey);
-max-width: 404px;
+.hero-section p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--grey);
+    max-width: 404px;
 }
 
-.hero-section-button{
+.hero-section-button {
     display: flex;
     gap: 40px;
     max-width: 331px;
 }
 
-.hero-section-button button{
+.hero-section-button button {
     padding: 6px 16px;
     height: 26px;
 }
 
-.secondary-btn{
+.secondary-btn {
     color: var(--grey);
     background: transparent;
     border: 1px solid grey;
 }
 
-.shoping-content{
+.shoping-content {
     color: var(--grey);
 }
 
-.shoping-icons{
+.shoping-icons {
     display: flex;
-    gap: 16px;
+    gap: 25px;
     cursor: pointer;
+    margin: 5px 0 20px 0 ;
 }

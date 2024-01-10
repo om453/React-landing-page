@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 import './Navigation.css'
 import logo from '../assets/images/nike-logo-49323.png'
 

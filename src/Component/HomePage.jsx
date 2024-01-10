@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 import './HomePage.css'
 import HeroImage from '../assets/images/hero-image.png'
 import flipKartIcon from '../assets/images/flipkart.png'
