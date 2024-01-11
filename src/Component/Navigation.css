@@ -38,3 +38,55 @@ button {
 button:hover{
     opacity: 0.8;
 }
+
+
+/* Small screens (phones, 768px and below) */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    li {
+        margin-right: 0;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+
+/* Medium screens (tablets, 768px and above) */
+@media only screen and (min-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    li:hover {
+        color: #ffcc00;
+    }
+}
+
+/* Large screens (desktops, 1024px and above) */
+@media only screen and (min-width: 1024px) {
+    ul {
+        gap: 30px;
+    }
+
+    button {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Extra-large screens (large desktops, 1200px and above) */
+@media only screen and (min-width: 1200px) {
+    nav {
+        padding: 20px 40px;
+    }
+}
