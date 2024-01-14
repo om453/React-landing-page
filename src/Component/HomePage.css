@@ -52,3 +52,43 @@
     cursor: pointer;
     margin: 5px 0 20px 0 ;
 }
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+    .hero-section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+  
+    .hero-section-content {
+      padding: 10px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .hero-section-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-section-content p {
+      font-size: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .hero-image {
+      max-width: 100%; /* Adjust the percentage as needed */
+      height: auto;
+    }
+  }

@@ -28,7 +28,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div>
+      <div className='hero-image'>
         <img src={HeroImage} alt={HeroImage} />
       </div>
 

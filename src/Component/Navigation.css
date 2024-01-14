@@ -40,40 +40,39 @@ button:hover{
 }
 
 
-/* Small screens (phones, 768px and below) */
-@media only screen and (max-width: 768px) {
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 580px) {
     nav {
-        flex-direction: column;
-        align-items: center;
+        height: auto;
+        display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     ul {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 10px;
+      flex-direction: column;
+      align-items: flex-start;
     }
-
+  
     li {
-        margin-right: 0;
+      margin: 10px 0;
     }
 
-    button {
-        margin-top: 10px;
+    .container button {
+        margin-top: 30px;
     }
-}
+  }
 
-/* Medium screens (tablets, 768px and above) */
+
 @media only screen and (min-width: 768px) {
     nav {
         padding: 20px;
-    }
-
-    li:hover {
-        color: #ffcc00;
+        display: flex;
     }
 }
 
-/* Large screens (desktops, 1024px and above) */
+
 @media only screen and (min-width: 1024px) {
     ul {
         gap: 30px;
@@ -84,7 +83,7 @@ button:hover{
     }
 }
 
-/* Extra-large screens (large desktops, 1200px and above) */
+
 @media only screen and (min-width: 1200px) {
     nav {
         padding: 20px 40px;

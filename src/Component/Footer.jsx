@@ -13,6 +13,7 @@ const Footer = () => {
           <h3>About Us</h3>
           <p>We are passionate about delivering the latest and trendiest athletic wear to our customers. Our mission is to inspire and empower individuals to embrace an active lifestyle, combining fashion and functionality seamlessly.</p>
         </div>
+        
         <div className="footer-section">
           <h3>Contact</h3>
           <p>Email: info@nike.com</p>
