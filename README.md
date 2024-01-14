@@ -1,1 +1,1 @@
-This is the Product landing page created using Reactjs + vanilla CSS 
+This is the Product landing page website which is fully responsive created using Reactjs + Vanilla CSS 
