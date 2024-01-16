@@ -88,7 +88,7 @@
 
   @media screen and (max-width: 580px) {
     .hero-image {
-      max-width: 100%; /* Adjust the percentage as needed */
+      max-width: 100%; 
       height: auto;
     }
   }
